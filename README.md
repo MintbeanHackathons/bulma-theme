@@ -1,4 +1,4 @@
-# bulma-theme - A Bulma Theme
+# bulma-theme - a workspace for Bulma theme generation
 
 ## What this is
 
