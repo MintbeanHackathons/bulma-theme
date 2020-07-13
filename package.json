@@ -1,0 +1,29 @@
+{
+    "name": "bulma-theme",
+    "description": "This project was generated from the Mintbean bulma-theme template using the mintbean-cli tool.",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+        "start": "parcel index.html",
+        "predeploy": "rm -fr .cache dist && parcel build index.html --public-url /bulma-theme",
+        "deploy": "gh-pages -d dist",
+        "build": "parcel build index.html"
+    },
+    "mintbean": {
+        "template": "bulma-theme",
+        "homepage": "https://monarchwadia.github.io/bulma-theme/",
+        "scripts": {
+            "deploy": "npm run deploy",
+            "develop": "npm run start"
+        }
+    },
+    "dependencies": {
+        "bulma": "^0.9.0"
+    },
+    "devDependencies": {
+        "gh-pages": "^3.1.0",
+        "parcel": "^1.12.4",
+        "sass": "^1.26.10"
+    }
+}
